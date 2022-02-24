@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rooms{
+    height: 100%;
+    width: 100%;
+
+    background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.playersOnline{
+    height: 100%;
+    width: 100%;
+
+    background-color: blueviolet;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

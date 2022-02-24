@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --ignore-watch node_modules --cls src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.0.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4"
+  }
+}
